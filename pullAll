@@ -1,0 +1,31 @@
+
+echo 'Mockspec'
+cd /home/jacob/research/code/mockspec/
+git pull origin master
+echo ''
+
+
+echo 'Analysis'
+cd /home/jacob/research/code/analysis/
+git pull origin master
+echo ''
+
+
+echo 'Inflows Paper'
+cd /home/jacob/research/papers/inflow/
+git pull origin master
+echo ''
+
+
+echo 'Dissertation'
+cd /home/jacob/research/dissertation/
+git pull origin master
+echo ''
+
+echo 'D&D'
+cd /home/jacob/dnd/
+git pull origin master
+echo ''
+
+
+
