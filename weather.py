@@ -1,3 +1,5 @@
+#!/home/rachel/anaconda3/bin/python
+
 import urllib.request
 import json
 
@@ -14,9 +16,7 @@ wind = parsed_json['current_observation']['wind_mph']
 sky = parsed_json['current_observation']['icon']
 f.close()
 s = '{0:.1f}, {1:s}, {2:.0f}mph, {3:s}\n'.format(temp_f,humid,wind,sky)
-with open(scriptLoc+'weatherStatus', 'w') as f:
+#with open(scriptLoc+'weatherStatus', 'w') as f:
+with open(scriptLoc+'status', 'w') as f:
     f.write(s)
-
-
-
 
